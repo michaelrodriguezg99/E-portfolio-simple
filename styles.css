@@ -224,7 +224,7 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
-  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .about-me__img {
   width: 100%;
@@ -319,6 +319,15 @@ nav {
 }
 .studies__info--para{
   font-size: 20px;
+}
+
+.container__studies{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: -32px;
+  margin: 0;
 }
 
 /* PROJECTS */
@@ -463,12 +472,27 @@ footer {
     height: 68px;
   }
 
+  .nav__link:not(:last-child) {
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav__link {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   h1 {
     font-size: 28px;
   }
 
   .about-me__info--para,
-  .studies__info p {
+  .studies__info--para {
     font-size: 18px;
   }
 
@@ -487,7 +511,7 @@ footer {
 }
 
 /* SMALL PHONES */
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .nav__link:not(:last-child) {
     display: none;
   }
