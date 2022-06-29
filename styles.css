@@ -306,6 +306,7 @@ nav {
 /* Studies - Education */
 
 #studies{
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -313,14 +314,10 @@ nav {
   margin: 24px auto;
   text-align: center;
 }
-
-.studies__info h2, .studies__info p{
-  text-align: center;
-}
 .studies__info h2{
   margin-top: 15px;
 }
-.studies__info p{
+.studies__info--para{
   font-size: 20px;
 }
 
@@ -470,7 +467,8 @@ footer {
     font-size: 28px;
   }
 
-  .about-me__info--para {
+  .about-me__info--para,
+  .studies__info p {
     font-size: 18px;
   }
 
