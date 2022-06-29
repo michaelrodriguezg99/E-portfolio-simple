@@ -127,7 +127,7 @@ nav {
 }
 
 .personal__logo img{
-  height: 100px;
+  height: 64px;
   width: auto;
 }
 
@@ -180,7 +180,7 @@ nav {
 
   /* Improving my own picture */
   transform: scale(1.5);
-  padding-top: 8px;
+  padding-top: 15px;
 }
 
 .about-me__info--title {
