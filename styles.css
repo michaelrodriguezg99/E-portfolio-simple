@@ -348,7 +348,7 @@ nav {
 
 .project__wrapper {
   display: flex;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, .75);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, .555);
   border-radius: 20px;
   overflow: hidden;
   position: relative;
